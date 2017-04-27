@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    link(href='https://fonts.googleapis.com/css?family=Scheherazade', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Poiret One', rel='stylesheet', type='text/css')
+    link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet")
+  style 
+    include style.css
+  body
+    h1 File Metadata Microservice
+    h3 An API Project for FreeCodeCamp
+
+    div
+      p A simple file uploader. Submit a file to view its filesize.
+      form(method="POST", action="/" class="pure-form", enctype="multipart/form-data")
+        input(type="file" name="filename")
+        input#submit(type="submit" value="Submit Query")
+include foot.pug
+    

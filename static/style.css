@@ -1,0 +1,58 @@
+body{
+  background-color: rgba(124,252,0,0.35);  
+}
+
+h1{
+  font-family: Scheherazade;
+  color:rgb(75,55,155);
+  text-shadow: 3px 2px 3px white;  
+  font-size: 40px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+h3{
+  font-family: Poiret One;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 100px;
+}
+
+div{
+  font-family: Poiret One;
+  font-size: 18px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+form{
+  margin-top: 50px;
+}
+
+input{
+  font-family: Poiret One;
+  font-size: 18px;
+  padding: 5px;
+}
+
+#submit{
+  border: 2px outset white;
+  font-weight: bold;
+  background-color: rgb(124,252,0);
+  padding: 10px;
+}
+
+a{
+  color: white;
+  font-size: 18px;
+  padding: 2px;
+  text-shadow: 5px 2px 5px black;
+} 
+
+#footer{
+  font-family: Scheherazade;
+  color:rgb(75,55,155);
+  text-shadow: 3px 2px 3px white;  
+  font-size: 22px;
+  text-align: center;
+}
